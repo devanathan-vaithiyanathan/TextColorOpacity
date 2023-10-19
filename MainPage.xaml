@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TextColorOpacityTesting.MainPage">
+
+    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+        <Editor x:Name="myEditor" Text="Sample Text" WidthRequest="200" HeightRequest="30" VerticalOptions="Center" HorizontalOptions="Center" />
+        <Slider x:Name="opacitySlider" Minimum="0" Maximum="1" Value="1" WidthRequest="200" HeightRequest="30" VerticalOptions="End" HorizontalOptions="Center" ValueChanged="opacitySlider_ValueChanged" />
+    </StackLayout>
+
+</ContentPage>
